@@ -1,4 +1,4 @@
-.calc{
+/* .calc{
   width: 300px;
   padding: 100px;
   margin-bottom: 10px;
@@ -29,13 +29,41 @@
   border-radius: 3px;
   background-color:   rgb(42, 71, 165);
 
-}
+} */
 body{
-  background-image: url(https://bluematrixit.com/cms_images/bluematrix-banner-3.jpg);
+  background-image: url(https://www.provinet.com/wp-content/uploads/2020/10/about_overlay-1-1024x768.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
   width: auto;
+}
+.valid{
+  
+  height: 20px;
+}
+.invalid{
+    height: 20px;
+
+}
+.invalid-email, .invalid-name{
+  color: red;
+}
+.form-group{
+  margin-top: 25px;
+  
+
+}
+.App{
+  font-size: 25px;
+  margin-left: 370px;
+  text-align: center;
+}.email{
+  border-radius: 10px;
+  width: 30px;
+
+}
+.input{
+  font-size: 50px;
 }
